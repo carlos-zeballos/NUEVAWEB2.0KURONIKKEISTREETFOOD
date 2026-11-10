@@ -1,19 +1,20 @@
 # .htaccess para Kuro Nikkei Street Food
 # Optimizaciones SEO y Performance
 
-# ====================
-# HTTPS REDIRECT (cuando tengas SSL)
-# ====================
-# RewriteEngine On
-# RewriteCond %{HTTPS} off
-# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# Canonical URLs and source-file protection (public build only).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
 
-# ====================
-# WWW REDIRECT (opcional)
-# ====================
-# RewriteEngine On
-# RewriteCond %{HTTP_HOST} ^kuronikkei\.com [NC]
-# RewriteRule ^(.*)$ https://www.kuronikkei.com/$1 [L,R=301]
+  RewriteCond %{HTTP_HOST} ^www\.kurosushifusion\.com$ [NC]
+  RewriteRule ^ https://kurosushifusion.com%{REQUEST_URI} [R=301,L,NE]
+
+  RewriteCond %{THE_REQUEST} \s/+index\.html[?\s] [NC]
+  RewriteRule ^index\.html$ / [R=301,L]
+
+  # Source files left by an earlier Git deployment are not runtime assets.
+  RewriteRule ^(?:src|scripts|tests|source-assets|node_modules|public|\.git)(?:/|$) - [F,L,NC]
+  RewriteRule ^(?:package(?:-lock)?\.json|(?:vite|playwright|postcss|tailwind)\.config\.js|\.gitignore|\.prettierrc\.json|.*\.md)$ - [F,L,NC]
+</IfModule>
 
 # ====================
 # GZIP COMPRESSION
@@ -44,6 +45,11 @@
   ExpiresByType application/javascript "access plus 1 month"
   ExpiresByType application/x-shockwave-flash "access plus 1 month"
   ExpiresByType image/x-icon "access plus 1 year"
+  # HTML, sitemaps and robots must not stay stale after a publication.
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType text/xml "access plus 0 seconds"
+  ExpiresByType text/plain "access plus 0 seconds"
   ExpiresDefault "access plus 2 days"
 </IfModule>
 
@@ -51,6 +57,10 @@
 # SECURITY HEADERS
 # ====================
 <IfModule mod_headers.c>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+
   # XSS Protection
   Header set X-XSS-Protection "1; mode=block"
   
