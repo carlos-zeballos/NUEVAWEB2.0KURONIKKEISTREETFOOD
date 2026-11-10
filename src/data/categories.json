@@ -1,0 +1,59 @@
+[
+  {
+    "id": "combos",
+    "title": "Combos y Paquetes",
+    "description": null
+  },
+  {
+    "id": "entradas",
+    "title": "Entradas",
+    "description": null
+  },
+  {
+    "id": "makis-clasicos",
+    "title": "Makis Clásicos",
+    "description": "Tabla de 10 rolls - S/27.90 cada uno"
+  },
+  {
+    "id": "makis-kureizi",
+    "title": "Makis Kureizi",
+    "description": "Tabla de 10 rolls - S/29.90 cada tabla"
+  },
+  {
+    "id": "platos-individuales",
+    "title": "Platos Individuales",
+    "description": null
+  },
+  {
+    "id": "postres",
+    "title": "Postres",
+    "description": null
+  },
+  {
+    "id": "bebidas",
+    "title": "Bebidas",
+    "description": null,
+    "groups": [
+      {
+        "id": "0",
+        "title": "Bebidas Embotelladas"
+      },
+      {
+        "id": "1",
+        "title": "Cervezas"
+      },
+      {
+        "id": "2",
+        "title": "Cócteles"
+      },
+      {
+        "id": "3",
+        "title": "Bebidas Frías"
+      },
+      {
+        "id": "4",
+        "title": "Bebidas Calientes"
+      }
+    ]
+  }
+]
