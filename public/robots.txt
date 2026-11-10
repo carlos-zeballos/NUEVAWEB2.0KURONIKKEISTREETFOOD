@@ -1,42 +1,5 @@
-# robots.txt para Kuro Sushi Fusión
-# Sushi y Comida Nikkei en Yanahuara, Arequipa
-
 User-agent: *
 Allow: /
 Disallow: /pag.web/
 
-# Sitemap
 Sitemap: https://kurosushifusion.com/sitemap.xml
-
-# Googlebot específico
-User-agent: Googlebot
-Allow: /
-Allow: /Assets/img/
-Allow: /Assets/css/
-Allow: /Assets/js/
-
-# Googlebot Images
-User-agent: Googlebot-Image
-Allow: /Assets/img/
-
-# Crawl-delay para bots pesados
-User-agent: *
-Crawl-delay: 1
-
-# Bloquear scraping excesivo
-User-agent: AhrefsBot
-Crawl-delay: 10
-
-User-agent: SemrushBot
-Crawl-delay: 10
-
-# Social media bots (permitir)
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-

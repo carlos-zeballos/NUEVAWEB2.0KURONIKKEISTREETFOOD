@@ -61,3 +61,16 @@ Las siete fotos más recientes conservan sus originales en `source-assets/carta/
 ## Animaciones de entrada
 
 La coreografía está centralizada en `src/motion/pageMotion.js`. Cada contexto define su entrada: personajes, sellos, papel, fotografías, cartas y modales. Las animaciones conservan las inclinaciones y efectos hover originales, esperan la carga de las ilustraciones y se ejecutan una vez al entrar en pantalla. Los cambios de promoción y filtros renuevan únicamente el contenido correspondiente. `prefers-reduced-motion` desactiva las entradas y cancela las que estén en curso. El HTML prerenderizado sigue siendo visible sin JavaScript.
+
+## SEO y sitemap
+
+`npm run build` ejecuta `npm run seo` antes de compilar. El generador `scripts/generate-seo.mjs` sincroniza los títulos, descripciones, canonical, Open Graph y Twitter; la carta Schema.org se obtiene de los 66 productos y categorías actuales. Las ofertas con precio «Desde» no se presentan como un precio fijo. No cambia componentes, estilos ni contenido visible.
+
+El dominio canónico conserva la configuración existente: `https://kurosushifusion.com`. Al publicar **todo el contenido de `dist/`**, quedan disponibles:
+
+- `https://kurosushifusion.com/sitemap.xml`: inicio, carta e imágenes, sin duplicar filtros ni enlaces con fragmentos.
+- `https://kurosushifusion.com/robots.txt`: permite el rastreo e indica el sitemap.
+
+No se inventan fechas `lastmod` en cada compilación. Referencia: [documentación de Google sobre sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
+
+Después del despliegue, enviar `sitemap.xml` desde la propiedad verificada del dominio en Google Search Console. Subir el código a GitHub no publica el sitio ni envía el sitemap a Google. Si cambia el dominio de producción, actualizarlo en el generador y regenerar antes de publicar. Las pruebas `npm test` verifican metadatos, precios, enlaces canónicos y existencia de las imágenes.

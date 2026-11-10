@@ -1,30 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <!-- Página de Inicio -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://kurosushifusion.com/</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://kurosushifusion.com/Assets/img/logo.png</image:loc>
-      <image:title>Kuro Sushi Fusión - Comida Nikkei Yanahuara</image:title>
-    </image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/local/LOCALKURO.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/promos/30-rolls-real.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/nakama/rolls-photo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/nakama/feast-photo.jpg</image:loc></image:image>
   </url>
-  
-  <!-- Página de Menú -->
   <url>
     <loc>https://kurosushifusion.com/menu.html</loc>
-    <lastmod>2025-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-    <image:image>
-      <image:loc>https://kurosushifusion.com/Assets/img/acevi.jpg</image:loc>
-      <image:title>Makis Kuro Sushi Fusión - Yanahuara</image:title>
-    </image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/bento1.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/bento2.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/bento-3.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/Nakama.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/barco.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/puente.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/30rolls.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/nakama/feast-photo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/after-office.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/gyozas.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/niguiriatun.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/gunkan.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/ebifurai.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/causa-thai.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/oniguiris.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/acevichado.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/california.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/kaiozama.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/tiradito.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/tataki.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/olivo.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/parrillero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/karameru.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/oranji.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/futari.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/supai.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/furai.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/shiro.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/kuma.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/wukong.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/veggie.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/fitnesroll.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/chicha.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/loncco.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/cauche.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/lomito.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/anticuchero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/conchitas.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/mishky.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/ukuku.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/kaji.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/magma.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/miso-kuro.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/godzila.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/20240709_165420.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/ramen.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/alalau.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/WAFFLE%20NIKKEI.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/cocacola.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/incakola.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/kola%20escocesa.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/agua%20embotellada.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/estella%20artois.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/cusquena.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/cerveza%20artesanal.webp</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/chilcanos.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/mojitos.png</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/piscosour.webp</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/limonada.webp</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/limonadahiebabuena.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/jugo%20de%20maracuya.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/chichamorada.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/icetea.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/carta/refresher-chicha.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/emoliente.webp</image:loc></image:image>
+    <image:image><image:loc>https://kurosushifusion.com/Assets/img/infusiones.webp</image:loc></image:image>
   </url>
-
 </urlset>
-
