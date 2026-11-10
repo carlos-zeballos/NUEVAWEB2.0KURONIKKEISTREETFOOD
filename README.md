@@ -74,3 +74,11 @@ El dominio canónico conserva la configuración existente: `https://kurosushifus
 No se inventan fechas `lastmod` en cada compilación. Referencia: [documentación de Google sobre sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap).
 
 Después del despliegue, enviar `sitemap.xml` desde la propiedad verificada del dominio en Google Search Console. Subir el código a GitHub no publica el sitio ni envía el sitemap a Google. Si cambia el dominio de producción, actualizarlo en el generador y regenerar antes de publicar. Las pruebas `npm test` verifican metadatos, precios, enlaces canónicos y existencia de las imágenes.
+
+### Publicación actual en Hostinger
+
+El dominio usa hosting estático PHP/HTML. Copiar la rama `main` directamente a `public_html` publica código fuente de Vite y deja la web sin funcionar. Se desactivó esa implementación automática en hPanel: no usar **Redistribuir main** mientras no exista un proceso de compilación previo.
+
+Para actualizar: ejecutar `npm ci` y `npm run build`, y publicar el **contenido** de `dist/` dentro de `public_html`, conservando las carpetas `Assets/`, `bundles/`, `.htaccess`, el sitemap y el archivo de verificación de Google. Después, borrar la caché del dominio en Hostinger y comprobar inicio y carta.
+
+`public/googlef40bd42dd5b67643.html` es el archivo de verificación emitido por Google Search Console. Debe permanecer accesible en la raíz pública y se incluye automáticamente al compilar. No contiene contraseñas ni credenciales privadas.
