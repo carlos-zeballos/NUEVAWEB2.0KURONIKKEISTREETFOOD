@@ -3282,3 +3282,55 @@ main {
 .hero-photo {
   background: var(--yellow);
 }
+
+/* Direct marketplace links remain visible while promotions rotate. */
+.hero-delivery {
+  margin-top: 28px;
+}
+.hero-delivery > p {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.hero-delivery-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hero-delivery-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 54px;
+  padding: 9px 13px;
+  border: 1px solid var(--ink);
+  border-radius: 12px;
+  color: var(--ink);
+  background: var(--cream);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+.hero-delivery-links img {
+  display: block;
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+.hero-delivery-arrow {
+  margin-left: 6px;
+  font-size: 18px;
+}
+.hero-delivery-links a:hover {
+  background: var(--yellow);
+}
+.hero-delivery-links a:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
+}

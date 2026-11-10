@@ -3,6 +3,7 @@ import { promotions } from '../../data/promotions.js';
 import { whatsappUrl } from '../../utils/whatsapp.js';
 import BrandArt from '../BrandArt.jsx';
 import Icon from '../Icon.jsx';
+import DeliveryLinks from '../DeliveryLinks.jsx';
 
 export default function Hero() {
   const [slide, setSlide] = useState(0);
@@ -129,6 +130,7 @@ export default function Hero() {
             Ver detalle <span className="circle-arrow">↗</span>
           </a>
         </div>
+        <DeliveryLinks />
       </div>
       <div className="hero-visual">
         <div className="hero-photo-frame" id="hero-gallery" data-motion-key={promotion.id}>
