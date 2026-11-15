@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="shell">
         <div className="footer-top">
           <div>
-            <span className="eyebrow">BUENA COMIDA. MEJOR CREW.</span>
+            <span className="eyebrow">BUENA COMIDA. LOS MEJORES NAKAMAS.</span>
             <p>
               EL PRÓXIMO
               <br />
@@ -27,7 +27,7 @@ export default function Footer() {
             <a href="menu.html">Explora la carta</a>
             <ReservationButton className="footer-reserve-link">Reserva tu mesa</ReservationButton>
             <a href="https://kuronakama.com/" target="_blank" rel="noopener noreferrer">
-              Nakama club ↗
+              Socio Kuro ↗
             </a>
           </div>
           <div>
@@ -41,7 +41,7 @@ export default function Footer() {
             <a href="mailto:kurosushifusion@gmail.com">kurosushifusion@gmail.com</a>
           </div>
           <div>
-            <span className="footer-label">SIGUE A LA CREW</span>
+            <span className="footer-label">SIGUE A LOS NAKAMAS</span>
             <div className="social-links">
               <a
                 href="https://www.instagram.com/kuro.nikkei.sf"

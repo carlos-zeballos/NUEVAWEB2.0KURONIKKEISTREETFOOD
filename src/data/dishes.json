@@ -7,7 +7,7 @@
     "badge": null,
     "price": "S/29.90",
     "flavors": [],
-    "search": "bento 1 combo causa maki",
+    "search": "bento 1 promociones causa maki",
     "image": {
       "src": "Assets/img/bento1.png",
       "alt": "Bento 1"
@@ -22,7 +22,7 @@
     "badge": null,
     "price": "S/32.90",
     "flavors": [],
-    "search": "bento 2 combo godzilla maki",
+    "search": "bento 2 promociones godzilla maki",
     "image": {
       "src": "Assets/img/bento2.png",
       "alt": "Bento 2"
@@ -37,7 +37,7 @@
     "badge": null,
     "price": "S/29.90",
     "flavors": [],
-    "search": "bento 3 combo gyozas maki",
+    "search": "bento 3 promociones gyozas maki",
     "image": {
       "src": "Assets/carta/bento-3.jpg",
       "alt": "Bento 3 — fotografía proporcionada por Kuro",
@@ -53,7 +53,7 @@
     "badge": null,
     "price": "S/49.90",
     "flavors": [],
-    "search": "nakama combo pareja tabla makis",
+    "search": "nakama promociones pareja tabla makis",
     "image": {
       "src": "Assets/img/Nakama.png",
       "alt": "Nakama"
@@ -68,7 +68,7 @@
     "badge": null,
     "price": "S/69.90",
     "flavors": [],
-    "search": "barco nikkei combo grupo familia tabla makis",
+    "search": "barco nikkei promociones grupo familia tabla makis",
     "image": {
       "src": "Assets/img/barco.png",
       "alt": "Barco nikkei"
@@ -83,7 +83,7 @@
     "badge": null,
     "price": "S/129.90",
     "flavors": [],
-    "search": "puente nikkei combo fiesta grande evento tabla makis",
+    "search": "puente nikkei promociones fiesta grande evento tabla makis",
     "image": {
       "src": "Assets/img/puente.jpg",
       "alt": "Puente nikkei"
@@ -98,7 +98,7 @@
     "badge": null,
     "price": "S/59.90",
     "flavors": [],
-    "search": "30 rolls combo makis",
+    "search": "30 rolls promociones makis",
     "image": {
       "src": "Assets/carta/30rolls.png",
       "alt": "30 rolls — fotografía proporcionada por Kuro"
@@ -129,7 +129,7 @@
     "badge": null,
     "price": "S/35.90",
     "flavors": [],
-    "search": "after office combo cerveza coctel maki",
+    "search": "after office promociones cerveza coctel maki",
     "image": {
       "src": "Assets/carta/after-office.jpg",
       "alt": "After Office — fotografía proporcionada por Kuro",

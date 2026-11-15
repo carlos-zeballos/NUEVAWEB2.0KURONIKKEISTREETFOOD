@@ -11,9 +11,9 @@ export default function Header({ home = false }) {
   const prefix = home ? '' : 'index.html';
   const links = [
     { label: 'La carta', href: 'menu.html', active: !home },
-    { label: 'La crew', href: `${prefix}#nosotros` },
+    { label: 'Los nakamas', href: `${prefix}#nosotros` },
     { label: 'Encuéntranos', href: `${prefix}#ven-reserva` },
-    { label: 'Nakama club', href: '#socio-kuro' },
+    { label: 'Socio Kuro', href: '#socio-kuro' },
   ];
   useEffect(() => {
     const outside = (event) => {

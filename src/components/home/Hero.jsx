@@ -86,7 +86,7 @@ export default function Hero() {
         aria-atomic="true"
       >
         <span className="eyebrow">
-          PROMOS PARA TU CREW{' '}
+          PROMOCIONES PARA TUS NAKAMAS{' '}
           <span className="promo-counter">
             {String(slide + 1).padStart(2, '0')} / {String(promotions.length).padStart(2, '0')}
           </span>

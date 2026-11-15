@@ -6,7 +6,7 @@ const campaigns = [
   {
     id: '30-rolls',
     headline: ['30 ROLLS.', 'CERO', 'EXCUSAS.'],
-    copy: '30 rolls, 3 sabores seleccionados y 2 salsas. El antojo de la crew ya tiene plan.',
+    copy: '30 rolls, 3 sabores seleccionados y 2 salsas. El antojo de los nakamas ya tiene plan.',
     image: 'Assets/promos/30-rolls-real.jpg',
     imageFit: 'contain',
     cta: 'QUIERO ESTA PROMO',
@@ -57,7 +57,7 @@ const campaigns = [
   {
     id: 'barco-nikkei',
     image: 'Assets/img/wukong.png',
-    headline: ['SUBE A', 'LA CREW', 'AL BARCO.'],
+    headline: ['SUBE A', 'TUS NAKAMAS', 'AL BARCO.'],
     copy: '30 rolls en 3 sabores de la carta, 3 salsas y 3 pares de palillos. Todos a bordo.',
     cta: 'QUIERO EL BARCO',
   },
@@ -65,7 +65,7 @@ const campaigns = [
     id: 'puente-nikkei',
     image: 'Assets/img/conchitas.jpg',
     headline: ['¡60 ROLLS', 'PARA UN', 'EQUIPO VORAZ!'],
-    copy: '60 rolls en 6 sabores y 5 salsas. Elige tu crew: el Puente Nikkei pone los makis.',
+    copy: '60 rolls en 6 sabores y 5 salsas. Reúne a tus nakamas: el Puente Nikkei pone los makis.',
     cta: 'QUIERO EL PUENTE',
   },
 ];

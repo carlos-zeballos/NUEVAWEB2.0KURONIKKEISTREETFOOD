@@ -5,7 +5,7 @@ export default function Membership() {
     <section id="socio-kuro" className="membership section-space">
       <div className="shell membership-card">
         <div className="membership-copy">
-          <span className="eyebrow">BIENVENIDO AL NAKAMA CLUB</span>
+          <span className="eyebrow">BIENVENIDO A SOCIO KURO</span>
           <h2>
             LA FIDELIDAD
             <br />
@@ -16,7 +16,7 @@ export default function Membership() {
             </span>
           </h2>
           <p>
-            Si Kuro ya es tu lugar, esto es para ti. Súmate al club y convierte tus antojos en
+            Si Kuro ya es tu lugar, esto es para ti. Hazte Socio Kuro y convierte tus antojos en
             recompensas.
           </p>
           <a
@@ -25,7 +25,7 @@ export default function Membership() {
             rel="noopener noreferrer"
             className="btn btn-yellow"
           >
-            QUIERO SER NAKAMA <Icon name="arrow" />
+            QUIERO SER SOCIO KURO <Icon name="arrow" />
           </a>
           <small>Tu próxima buena decisión empieza con un maki.</small>
         </div>

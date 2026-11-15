@@ -9,7 +9,7 @@ export default function About() {
           <span className="crew-orbit" />
           <BrandArt name="crew" alt="Kuma y Ukuku compartiendo makis" />
           <span className="crew-note">
-            TU CREW.
+            TUS NAKAMAS.
             <br />
             NUESTRA MESA.
           </span>
@@ -24,7 +24,7 @@ export default function About() {
             <span className="crew-title-japanese">ITADAKIMASU!!!</span>
           </h2>
           <p>
-            Makis al centro, buena vibra y una mesa para compartir. El mejor plan con tu crew
+            Makis al centro, buena vibra y una mesa para compartir. El mejor plan con tus nakamas
             empieza en nuestro local.
           </p>
           <p>

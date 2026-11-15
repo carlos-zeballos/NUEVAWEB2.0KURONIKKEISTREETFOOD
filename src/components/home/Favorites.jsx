@@ -15,7 +15,7 @@ const favorites = [
   },
   {
     name: 'EL PLAN COMPLETO',
-    category: 'COMBOS PARA TU CREW',
+    category: 'PROMOCIONES PARA TUS NAKAMAS',
     image: 'Assets/img/tataki.png',
     href: 'combos',
     label: 'Hoy se comparte (o no)',

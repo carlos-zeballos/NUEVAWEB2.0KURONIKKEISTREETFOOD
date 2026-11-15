@@ -63,11 +63,11 @@ export default function ReservationModal({ open, onClose }) {
               TU MESA.
             </h2>
             <p>
-              Trae a tu crew.
+              Trae a tus nakamas.
               <br />
               Nosotros ponemos los makis.
             </p>
-            <BrandArt name="ukuku" alt="Ukuku listo para recibir a tu crew" />
+            <BrandArt name="ukuku" alt="Ukuku listo para recibir a tus nakamas" />
             <span className="reservation-modal-caption">¡LA MESA ESTÁ SERVIDA!</span>
           </aside>
           <form className="reservation-form" onSubmit={submit}>

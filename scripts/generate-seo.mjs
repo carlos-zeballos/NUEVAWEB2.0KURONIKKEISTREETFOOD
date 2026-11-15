@@ -69,7 +69,7 @@ export async function generateSeo() {
       url: `${origin}/`,
       title: 'KURO Nikkei Street Food | Sushi y makis en Yanahuara, Arequipa',
       description:
-        'Sushi, makis, ramen y combos en KURO Nikkei Street Food. Visítanos en Calle Paz Soldán 202, Yanahuara, Arequipa. Consulta la carta y reserva por WhatsApp.',
+        'Sushi, makis, ramen y promociones en KURO Nikkei Street Food. Visítanos en Calle Paz Soldán 202, Yanahuara, Arequipa. Consulta la carta y reserva por WhatsApp.',
       image: 'Assets/local/LOCALKURO.png',
       imageAlt: 'Local de KURO Nikkei Street Food en Yanahuara, Arequipa',
       schemas: [
@@ -94,9 +94,9 @@ export async function generateSeo() {
     {
       file: 'menu.html',
       url: `${origin}/menu.html`,
-      title: 'Carta de KURO Nikkei | Makis, ramen y combos en Arequipa',
+      title: 'Carta de KURO Nikkei | Makis, ramen y promociones en Arequipa',
       description:
-        'Explora la carta de KURO: 66 opciones entre makis, entradas, ramen, combos, postres y bebidas. Consulta precios y pide por WhatsApp en Yanahuara, Arequipa.',
+        'Explora la carta de KURO: 66 opciones entre makis, entradas, ramen, promociones, postres y bebidas. Consulta precios y pide por WhatsApp en Yanahuara, Arequipa.',
       image: 'Assets/promos/30-rolls-real.jpg',
       imageAlt: 'Promoción de 30 rolls de KURO Nikkei Street Food',
       schemas: [

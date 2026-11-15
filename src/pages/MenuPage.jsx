@@ -116,7 +116,7 @@ export default function MenuPage() {
                 type="search"
                 id="buscar-plato"
                 aria-label="Buscar platos"
-                placeholder="Un maki, unas gyozas, un combo…"
+                placeholder="Un maki, unas gyozas, una promoción…"
                 value={query}
                 onChange={(event) => setQuery(event.target.value)}
                 onKeyDown={(event) => {
