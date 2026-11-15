@@ -77,8 +77,10 @@ Después del despliegue, enviar `sitemap.xml` desde la propiedad verificada del 
 
 ### Publicación actual en Hostinger
 
-El dominio usa hosting estático PHP/HTML. Copiar la rama `main` directamente a `public_html` publica código fuente de Vite y deja la web sin funcionar. Se desactivó esa implementación automática en hPanel: no usar **Redistribuir main** mientras no exista un proceso de compilación previo.
+El dominio usa hosting estático PHP/HTML. La integración Git de Hostinger no ejecuta Vite: por eso `npm run build` también prepara `hosting/` (HTML prerenderizado y bundles compilados) y el `.htaccess` de la raíz. Ambos se incluyen en el commit. Así una implementación de `main` en `public_html` sirve el sitio compilado; las imágenes se sirven desde `public/Assets` mediante rutas internas, sin duplicarlas en Git. Apache/LiteSpeed debe permitir las reglas de `.htaccess`.
 
-Para actualizar: ejecutar `npm ci` y `npm run build`, y publicar el **contenido** de `dist/` dentro de `public_html`, conservando las carpetas `Assets/`, `bundles/`, `.htaccess`, el sitemap y el archivo de verificación de Google. Después, borrar la caché del dominio en Hostinger y comprobar inicio y carta.
+Para actualizar por Git: ejecutar `npm ci` si cambiaron dependencias, `npm run build`, las pruebas y después incluir los cambios de `hosting/` y `.htaccess` en el commit y push. No editar manualmente los archivos generados. Después comprobar inicio y carta, incluyendo recargas. Si Hostinger conserva una versión anterior, borrar la caché del dominio.
+
+La publicación manual sigue disponible: subir el **contenido** de `dist/` dentro de `public_html`, conservando `Assets/`, `bundles/`, `.htaccess`, el sitemap y el archivo de verificación de Google.
 
 `public/googlef40bd42dd5b67643.html` es el archivo de verificación emitido por Google Search Console. Debe permanecer accesible en la raíz pública y se incluye automáticamente al compilar. No contiene contraseñas ni credenciales privadas.

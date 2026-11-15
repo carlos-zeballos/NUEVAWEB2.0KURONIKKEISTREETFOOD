@@ -57,7 +57,7 @@ const campaigns = [
   {
     id: 'barco-nikkei',
     image: 'Assets/img/wukong.png',
-    headline: ['SUBE A', 'TUS NAKAMAS', 'AL BARCO.'],
+    headline: ['TUS', 'NAKAMAS', 'A BORDO.'],
     copy: '30 rolls en 3 sabores de la carta, 3 salsas y 3 pares de palillos. Todos a bordo.',
     cta: 'QUIERO EL BARCO',
   },

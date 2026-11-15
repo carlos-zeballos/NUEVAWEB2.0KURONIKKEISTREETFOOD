@@ -1,5 +1,39 @@
 import { test, expect } from '@playwright/test';
 
+for (const route of ['/', '/menu.html']) {
+  test(`production page survives repeated reloads: ${route}`, async ({ page }) => {
+    const errors = [];
+    page.on('pageerror', (error) => errors.push(error.message));
+    page.on('response', (response) => {
+      if (['script', 'stylesheet'].includes(response.request().resourceType()) && !response.ok())
+        errors.push(`${response.status()} ${response.url()}`);
+    });
+    await page.goto(route);
+    for (let attempt = 0; attempt < 3; attempt++) {
+      await page.reload();
+      await expect(page.locator('#main-header')).toBeVisible();
+      await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+      expect(
+        await page
+          .locator('script[src]')
+          .evaluateAll((scripts) =>
+            scripts.every(
+              (script) => !script.src.includes('/src/') && !script.src.endsWith('.jsx'),
+            ),
+          ),
+      ).toBe(true);
+      if (route === '/') {
+        await page.getByRole('button', { name: 'Ver promoción 2: After Office' }).click();
+        await expect(page.locator('.promo-headline')).toContainText('LA LAPTOP.');
+      } else {
+        await page.locator('#buscar-plato').fill('california');
+        await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(1);
+      }
+    }
+    expect(errors).toEqual([]);
+  });
+}
+
 for (const width of [390, 720, 1440]) {
   test(`menu search, filters and navigation at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });

@@ -1,0 +1,119 @@
+# .htaccess para Kuro Nikkei Street Food
+# Optimizaciones SEO y Performance
+
+# Canonical URLs and source-file protection (public build only).
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteCond %{HTTP_HOST} ^www\.kurosushifusion\.com$ [NC]
+  RewriteRule ^ https://kurosushifusion.com%{REQUEST_URI} [R=301,L,NE]
+
+  RewriteCond %{THE_REQUEST} \s/+index\.html[?\s] [NC]
+  RewriteRule ^index\.html$ / [R=301,L]
+
+
+  # Serve the checked-in production build after a direct Git deployment.
+  # END avoids applying source-file protection again to these internal paths.
+  RewriteRule ^$ hosting/index.html [END]
+  RewriteRule ^(index|menu)\.html$ hosting/$1.html [END]
+  RewriteRule ^bundles/(.+)$ hosting/bundles/$1 [END]
+  RewriteRule ^Assets/(.+)$ public/Assets/$1 [END]
+  RewriteRule ^(robots\.txt|sitemap\.xml|google[a-z0-9]+\.html)$ public/$1 [END]
+
+  # Source files left by an earlier Git deployment are not runtime assets.
+  RewriteRule ^(?:src|scripts|tests|source-assets|node_modules|public|\.git)(?:/|$) - [F,L,NC]
+  RewriteRule ^(?:package(?:-lock)?\.json|(?:vite|playwright|postcss|tailwind)\.config\.js|\.gitignore|\.prettierrc\.json|.*\.md)$ - [F,L,NC]
+</IfModule>
+
+# ====================
+# GZIP COMPRESSION
+# ====================
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/json
+</IfModule>
+
+# ====================
+# BROWSER CACHING
+# ====================
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/pdf "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/x-shockwave-flash "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 year"
+  # HTML, sitemaps and robots must not stay stale after a publication.
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/xml "access plus 0 seconds"
+  ExpiresByType text/xml "access plus 0 seconds"
+  ExpiresByType text/plain "access plus 0 seconds"
+  ExpiresDefault "access plus 2 days"
+</IfModule>
+
+# ====================
+# SECURITY HEADERS
+# ====================
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|xml|txt)$">
+    Header set Cache-Control "no-cache, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  # XSS Protection
+  Header set X-XSS-Protection "1; mode=block"
+  
+  # Prevent MIME sniffing
+  Header set X-Content-Type-Options "nosniff"
+  
+  # Clickjacking protection
+  Header set X-Frame-Options "SAMEORIGIN"
+  
+  # Referrer Policy
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# ====================
+# URL REWRITING (opcional)
+# ====================
+# RewriteEngine On
+# RewriteRule ^menu$ menu.html [L]
+# RewriteRule ^inicio$ index.html [L]
+
+# ====================
+# CUSTOM ERROR PAGES
+# ====================
+# ErrorDocument 404 /404.html
+# ErrorDocument 500 /500.html
+
+# ====================
+# CHARSET
+# ====================
+AddDefaultCharset UTF-8
+
+# ====================
+# DISABLE DIRECTORY BROWSING
+# ====================
+Options -Indexes
+
+# ====================
+# PROTECT FILES
+# ====================
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+
+
+
