@@ -9,7 +9,7 @@
     "flavors": [],
     "search": "bento 1 promociones causa maki",
     "image": {
-      "src": "Assets/img/bento1.png",
+      "src": "Assets/fotos/bento-1.webp",
       "alt": "Bento 1"
     },
     "categoryId": "combos"
@@ -24,7 +24,7 @@
     "flavors": [],
     "search": "bento 2 promociones godzilla maki",
     "image": {
-      "src": "Assets/img/bento2.png",
+      "src": "Assets/fotos/bento-2.webp",
       "alt": "Bento 2"
     },
     "categoryId": "combos"
@@ -39,9 +39,8 @@
     "flavors": [],
     "search": "bento 3 promociones gyozas maki",
     "image": {
-      "src": "Assets/carta/bento-3.jpg",
-      "alt": "Bento 3 — fotografía proporcionada por Kuro",
-      "position": "50% 50%"
+      "src": "Assets/fotos/bento-3.webp",
+      "alt": "Bento 3"
     },
     "categoryId": "combos"
   },
@@ -55,7 +54,7 @@
     "flavors": [],
     "search": "nakama promociones pareja tabla makis",
     "image": {
-      "src": "Assets/img/Nakama.png",
+      "src": "Assets/fotos/nakama.webp",
       "alt": "Nakama"
     },
     "categoryId": "combos"
@@ -70,7 +69,7 @@
     "flavors": [],
     "search": "barco nikkei promociones grupo familia tabla makis",
     "image": {
-      "src": "Assets/img/barco.png",
+      "src": "Assets/fotos/barco.webp",
       "alt": "Barco nikkei"
     },
     "categoryId": "combos"
@@ -85,7 +84,7 @@
     "flavors": [],
     "search": "puente nikkei promociones fiesta grande evento tabla makis",
     "image": {
-      "src": "Assets/img/puente.jpg",
+      "src": "Assets/fotos/puente.webp",
       "alt": "Puente nikkei"
     },
     "categoryId": "combos"
@@ -100,8 +99,8 @@
     "flavors": [],
     "search": "30 rolls promociones makis",
     "image": {
-      "src": "Assets/carta/30rolls.png",
-      "alt": "30 rolls — fotografía proporcionada por Kuro"
+      "src": "Assets/fotos/30-rolls.webp",
+      "alt": "30 rolls"
     },
     "categoryId": "combos"
   },
@@ -115,8 +114,8 @@
     "flavors": [],
     "search": "4x3 makis promocion",
     "image": {
-      "src": "Assets/nakama/feast-photo.jpg",
-      "alt": "Fotografía referencial de una mesa de makis para compartir",
+      "src": "Assets/fotos/4x3.webp",
+      "alt": "¡4x3 en makis!",
       "note": "Foto referencial"
     },
     "categoryId": "combos"
@@ -131,9 +130,8 @@
     "flavors": [],
     "search": "after office promociones cerveza coctel maki",
     "image": {
-      "src": "Assets/carta/after-office.jpg",
-      "alt": "After Office — fotografía proporcionada por Kuro",
-      "position": "50% 55%"
+      "src": "Assets/fotos/after-office.webp",
+      "alt": "After Office"
     },
     "categoryId": "combos"
   },
@@ -147,8 +145,8 @@
     "flavors": [],
     "search": "gyozas fritas vapor temporada",
     "image": {
-      "src": "Assets/img/gyozas.jpg",
-      "alt": "Gyozas"
+      "src": "Assets/fotos/gyosas-fritas.webp",
+      "alt": "Gyozas fritas o al vapor (8 unidades)"
     },
     "categoryId": "entradas"
   },
@@ -175,8 +173,8 @@
     "flavors": [],
     "search": "nigiris niguiris tataki nikkei conchitas bonito trucha conchas abanico",
     "image": {
-      "src": "Assets/img/niguiriatun.jpg",
-      "alt": "Nigiris"
+      "src": "Assets/fotos/niguiris-nikkei.webp",
+      "alt": "Nigiris (2 unidades)"
     },
     "categoryId": "entradas"
   },
@@ -190,8 +188,8 @@
     "flavors": [],
     "search": "gunkans gunkan pulpo trucha pescado blanco",
     "image": {
-      "src": "Assets/img/gunkan.png",
-      "alt": "Gunkans"
+      "src": "Assets/fotos/gunkans.webp",
+      "alt": "Gunkans (3 unidades)"
     },
     "categoryId": "entradas"
   },
@@ -205,8 +203,8 @@
     "flavors": [],
     "search": "eby furai ebi langostino panko",
     "image": {
-      "src": "Assets/img/ebifurai.png",
-      "alt": "Yakitori de Pollo"
+      "src": "Assets/fotos/eby-furai.webp",
+      "alt": "Eby furai (6 unidades)"
     },
     "categoryId": "entradas"
   },
@@ -220,9 +218,8 @@
     "flavors": [],
     "search": "trio causas nikkei pulpo olivo tiradito langostino maracuya",
     "image": {
-      "src": "Assets/carta/causa-thai.jpg",
-      "alt": "Trío de causas nikkei — fotografía proporcionada por Kuro",
-      "position": "50% 52%"
+      "src": "Assets/fotos/trio-de-causa.webp",
+      "alt": "Trío de causas nikkei"
     },
     "categoryId": "entradas"
   },
@@ -236,9 +233,8 @@
     "flavors": [],
     "search": "oniguiris onigiri arroz trucha palta queso crema",
     "image": {
-      "src": "Assets/carta/oniguiris.jpg",
-      "alt": "Oniguiris — fotografía proporcionada por Kuro",
-      "position": "50% 51%"
+      "src": "Assets/fotos/oniguiri.webp",
+      "alt": "Oniguiris"
     },
     "categoryId": "entradas"
   },
@@ -249,10 +245,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de bonito, salsa acevichada y especias japonesas.",
     "badge": "🧂 Salado",
     "price": "S/27.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "acevichado maki roll bonito palta ebi",
     "image": {
-      "src": "Assets/img/acevichado.jpg",
+      "src": "Assets/fotos/acevichado.webp",
       "alt": "Acevichado"
     },
     "categoryId": "makis-clasicos"
@@ -264,10 +262,12 @@
     "description": "Roll relleno de queso crema, palta y trucha fresca. Cubierto de ajonjolí negro.",
     "badge": "🧂 Salado",
     "price": "S/27.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "california maki roll queso crema palta trucha",
     "image": {
-      "src": "Assets/img/california.png",
+      "src": "Assets/fotos/california.webp",
       "alt": "California"
     },
     "categoryId": "makis-clasicos"
@@ -279,10 +279,12 @@
     "description": "Roll relleno de queso crema y crocante ebi furai. Cubierto de láminas de palta, coronado en salsa tare.",
     "badge": "🍬 Dulce",
     "price": "S/29.90",
-    "flavors": ["dulce"],
+    "flavors": [
+      "dulce"
+    ],
     "search": "kaiozama katozema maki roll queso crema palta tare",
     "image": {
-      "src": "Assets/img/kaiozama.jpg",
+      "src": "Assets/fotos/kaiozama.webp",
       "alt": "Kaiozama"
     },
     "categoryId": "makis-clasicos"
@@ -294,10 +296,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de pescado blanco, leche de tigre nikkei y especias japonesas.",
     "badge": "🧂 Salado",
     "price": "S/27.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "tiradito maki roll pescado blanco leche tigre",
     "image": {
-      "src": "Assets/img/tiradito.png",
+      "src": "Assets/fotos/tiradito.webp",
       "alt": "Tiradito"
     },
     "categoryId": "makis-clasicos"
@@ -309,10 +313,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de bonito gratinado con aceite de ajonjolí, pimienta negra y gotas de ostión.",
     "badge": "🧈 Gratinado - Salado",
     "price": "S/27.90",
-    "flavors": ["gratinado-salado"],
+    "flavors": [
+      "gratinado-salado"
+    ],
     "search": "tataki maki roll bonito gratinado ajonjoli pimienta",
     "image": {
-      "src": "Assets/img/tataki.png",
+      "src": "Assets/fotos/tataki.webp",
       "alt": "Tataki"
     },
     "categoryId": "makis-clasicos"
@@ -324,10 +330,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de tartar de pulpo al olivo e hilos de wantan.",
     "badge": "🧂 Salado",
     "price": "S/27.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "olivo maki roll pulpo tartar wantan",
     "image": {
-      "src": "Assets/img/olivo.jpg",
+      "src": "Assets/fotos/olivo.webp",
       "alt": "Olivo"
     },
     "categoryId": "makis-clasicos"
@@ -339,10 +347,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de láminas de trucha gratinadas bañado en chimichurri.",
     "badge": "🧈 Gratinado - Salado",
     "price": "S/27.90",
-    "flavors": ["gratinado-salado"],
+    "flavors": [
+      "gratinado-salado"
+    ],
     "search": "parrillero maki roll trucha gratinada chimichurri",
     "image": {
-      "src": "Assets/img/parrillero.jpg",
+      "src": "Assets/fotos/parrillero.webp",
       "alt": "Parrillero"
     },
     "categoryId": "makis-clasicos"
@@ -354,10 +364,12 @@
     "description": "Roll relleno de tori furai, queso crema y cebollín. Cubierto con salsa tare y togarashi.",
     "badge": "🍬 Dulce",
     "price": "S/27.90",
-    "flavors": ["dulce"],
+    "flavors": [
+      "dulce"
+    ],
     "search": "karameru karamaru maki roll tori furai pollo harusame tare",
     "image": {
-      "src": "Assets/img/karameru.jpg",
+      "src": "Assets/fotos/karameru.webp",
       "alt": "Karameru"
     },
     "categoryId": "makis-clasicos"
@@ -369,10 +381,12 @@
     "description": "Roll relleno de queso crema y crocante ebi furai. Cubierto de trucha, láminas finas de limón y salsa tare.",
     "badge": "🍬 Dulce",
     "price": "S/27.90",
-    "flavors": ["dulce"],
+    "flavors": [
+      "dulce"
+    ],
     "search": "oranji maki roll trucha limon tare",
     "image": {
-      "src": "Assets/img/oranji.png",
+      "src": "Assets/fotos/oranji.webp",
       "alt": "Oranji"
     },
     "categoryId": "makis-clasicos"
@@ -384,10 +398,12 @@
     "description": "Roll relleno de queso crema, pepino y crocante ebi furai. Cubierto de miel de maracuyá y ajonjolí.",
     "badge": "🍯 Gratinado - Dulce",
     "price": "S/27.90",
-    "flavors": ["gratinado-dulce"],
+    "flavors": [
+      "gratinado-dulce"
+    ],
     "search": "futari maki roll mango maracuya azucarado",
     "image": {
-      "src": "Assets/img/futari.png",
+      "src": "Assets/fotos/futari.webp",
       "alt": "Futari"
     },
     "categoryId": "makis-clasicos"
@@ -399,10 +415,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de trucha, salsa supai gratinada con toques de salsa tare y especias japonesas.",
     "badge": "🌶️ Gratinado - Picante",
     "price": "S/27.90",
-    "flavors": ["gratinado-picante"],
+    "flavors": [
+      "gratinado-picante"
+    ],
     "search": "supai maki roll picante trucha gratinado",
     "image": {
-      "src": "Assets/img/supai.png",
+      "src": "Assets/fotos/supai.webp",
       "alt": "Supai"
     },
     "categoryId": "makis-clasicos"
@@ -414,10 +432,12 @@
     "description": "Roll crocante a base de panko relleno de queso crema, palta y trucha fresca.",
     "badge": "🍤 Frito",
     "price": "S/27.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "furai maki roll crocante panko queso crema trucha tempura",
     "image": {
-      "src": "Assets/img/furai.png",
+      "src": "Assets/fotos/furai.webp",
       "alt": "Furai"
     },
     "categoryId": "makis-clasicos"
@@ -429,10 +449,12 @@
     "description": "Roll crocante relleno de palta y crocante ebi furai. Cubierto de tartar de pulpo acevichado.",
     "badge": "🍤 Frito",
     "price": "S/27.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "shiro maki roll crocante pulpo acevichado",
     "image": {
-      "src": "Assets/img/shiro.png",
+      "src": "Assets/fotos/shiro.webp",
       "alt": "Shiro"
     },
     "categoryId": "makis-clasicos"
@@ -444,10 +466,12 @@
     "description": "Hosomaki tempura relleno de palta y crocante ebi furai. Cubierto de tartar de pescado acevichado, coronado con toques de tare y especias japonesas.",
     "badge": "🍤 Frito",
     "price": "S/29.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "kuma maki roll hosomaki tempura pescado acevichado",
     "image": {
-      "src": "Assets/img/kuma.jpg",
+      "src": "Assets/fotos/kuma.webp",
       "alt": "Kuma"
     },
     "categoryId": "makis-kureizi"
@@ -459,10 +483,12 @@
     "description": "Roll crocante a base de banana-panko relleno de queso crema, palta y trucha fresca, bañado en salsa de maracuyá.",
     "badge": "🍬 Dulce",
     "price": "S/29.90",
-    "flavors": ["dulce"],
+    "flavors": [
+      "dulce"
+    ],
     "search": "wukong maki banana panko maracuya dulce",
     "image": {
-      "src": "Assets/img/wukong.png",
+      "src": "Assets/fotos/wukong.webp",
       "alt": "Wukong"
     },
     "categoryId": "makis-kureizi"
@@ -474,10 +500,12 @@
     "description": "Hosomaki relleno de zanahoria, palta y pepino. Ligero, fresco y lleno de color.",
     "badge": "🧂 Salado",
     "price": "S/29.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "veggie maki vegetariano zanahoria palta pepino",
     "image": {
-      "src": "Assets/img/veggie.png",
+      "src": "Assets/fotos/veggie.webp",
       "alt": "Veggie"
     },
     "categoryId": "makis-kureizi"
@@ -489,10 +517,12 @@
     "description": "Hosomaki relleno de pepino y trucha. Una opción ligera y llena de proteína.",
     "badge": "🧂 Salado",
     "price": "S/29.90",
-    "flavors": ["salado"],
+    "flavors": [
+      "salado"
+    ],
     "search": "fitnes roll ligero pepino trucha saludable",
     "image": {
-      "src": "Assets/img/fitnesroll.jpg",
+      "src": "Assets/fotos/fitness.webp",
       "alt": "Fitnes Roll"
     },
     "categoryId": "makis-kureizi"
@@ -504,11 +534,13 @@
     "description": "Roll crocante relleno de tori furai, queso crema y mango. Cubierto de salsa de chicha morada nikkei y coronado con láminas de limón.",
     "badge": "🍤 Frito",
     "price": "S/29.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "chicha maki roll crocante tori furai mango chicha morada",
     "image": {
-      "src": "Assets/carta/chicha.png",
-      "alt": "Chicha — fotografía proporcionada por Kuro"
+      "src": "Assets/fotos/chicha.webp",
+      "alt": "Chicha"
     },
     "categoryId": "makis-kureizi"
   },
@@ -519,11 +551,13 @@
     "description": "Roll relleno de queso frito al estilo arequipeño y crocante ebi furai. Cubierto de nuestra salsa loncca, gratinado con mantequilla y queso parmesano.",
     "badge": "🌶️ Gratinado - Picante",
     "price": "S/29.90",
-    "flavors": ["gratinado-picante"],
+    "flavors": [
+      "gratinado-picante"
+    ],
     "search": "loncco maki roll queso arequipeño loncca parmesano",
     "image": {
-      "src": "Assets/carta/loncco.png",
-      "alt": "Loncco — fotografía proporcionada por Kuro"
+      "src": "Assets/fotos/loncco.webp",
+      "alt": "Loncco"
     },
     "categoryId": "makis-kureizi"
   },
@@ -534,10 +568,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de queso crema gratinado con chimichurri y salsa tare.",
     "badge": "🍯 Gratinado - Dulce",
     "price": "S/29.90",
-    "flavors": ["gratinado-dulce"],
+    "flavors": [
+      "gratinado-dulce"
+    ],
     "search": "cauche cancha maki roll queso crema chimichurri",
     "image": {
-      "src": "Assets/img/cauche.png",
+      "src": "Assets/fotos/cauche.webp",
       "alt": "Cauche"
     },
     "categoryId": "makis-kureizi"
@@ -549,10 +585,12 @@
     "description": "Roll relleno de queso crema y crocante ebi furai. Cubierto de láminas de carne gratinadas al estilo tataki, coronado con nuestro tartar de lomo saltado.",
     "badge": "🧈 Gratinado - Salado",
     "price": "S/29.90",
-    "flavors": ["gratinado-salado"],
+    "flavors": [
+      "gratinado-salado"
+    ],
     "search": "lomito maki roll carne lomo saltado tataki",
     "image": {
-      "src": "Assets/img/lomito.jpg",
+      "src": "Assets/fotos/lomito.webp",
       "alt": "Lomito"
     },
     "categoryId": "makis-kureizi"
@@ -564,10 +602,12 @@
     "description": "Roll relleno de queso crema y crocante ebi furai. Cubierto de pulpo en salsa anticuchera gratinada.",
     "badge": "🧈 Gratinado - Salado",
     "price": "S/29.90",
-    "flavors": ["gratinado-salado"],
+    "flavors": [
+      "gratinado-salado"
+    ],
     "search": "anticuchero maki roll pulpo anticucho gratinado",
     "image": {
-      "src": "Assets/img/anticuchero.jpg",
+      "src": "Assets/fotos/anticuchero.webp",
       "alt": "Anticuchero"
     },
     "categoryId": "makis-kureizi"
@@ -579,10 +619,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de conchas de abanico y salsa parmesana gratinada en limón.",
     "badge": "🧈 Gratinado - Salado",
     "price": "S/29.90",
-    "flavors": ["gratinado-salado"],
+    "flavors": [
+      "gratinado-salado"
+    ],
     "search": "conchitas parmesana maki roll conchas abanico",
     "image": {
-      "src": "Assets/img/conchitas.jpg",
+      "src": "Assets/fotos/conchitas.webp",
       "alt": "Conchitas a la parmesana"
     },
     "categoryId": "makis-kureizi"
@@ -594,10 +636,12 @@
     "description": "Roll crocante relleno de queso crema y mango. Cubierto de miel de maracuyá.",
     "badge": "🍤 Frito",
     "price": "S/29.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "mishky maki roll crocante queso crema mango maracuya",
     "image": {
-      "src": "Assets/img/mishky.png",
+      "src": "Assets/fotos/mishky.webp",
       "alt": "Mishky"
     },
     "categoryId": "makis-kureizi"
@@ -609,10 +653,12 @@
     "description": "Hosomaki tempura relleno de palta y crocante ebi furai. Cubierto de salsa de trucha ahumada, coronado con tare y kawá.",
     "badge": "🍤 Frito",
     "price": "S/29.90",
-    "flavors": ["frito"],
+    "flavors": [
+      "frito"
+    ],
     "search": "ukuku maki roll hosomaki tempura trucha ahumada",
     "image": {
-      "src": "Assets/img/ukuku.jpg",
+      "src": "Assets/fotos/ukuku.webp",
       "alt": "Ukuku"
     },
     "categoryId": "makis-kureizi"
@@ -624,10 +670,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto de tartar de pulpo picante especial parrillero.",
     "badge": "🌶️ Gratinado - Picante",
     "price": "S/29.90",
-    "flavors": ["gratinado-picante"],
+    "flavors": [
+      "gratinado-picante"
+    ],
     "search": "kaji maki roll pulpo picante parrillero",
     "image": {
-      "src": "Assets/img/kaji.jpg",
+      "src": "Assets/fotos/kaji.webp",
       "alt": "Kaji"
     },
     "categoryId": "makis-kureizi"
@@ -639,10 +687,12 @@
     "description": "Roll relleno de palta y crocante ebi furai. Cubierto en cremosa salsa picante de cangrejo, gratinado con mantequilla, queso parmesano y toques de limón y salsa tare.",
     "badge": "🌶️ Gratinado - Picante",
     "price": "S/29.90",
-    "flavors": ["gratinado-picante"],
+    "flavors": [
+      "gratinado-picante"
+    ],
     "search": "magma maki roll cangrejo picante gratinado parmesano",
     "image": {
-      "src": "Assets/img/magma.png",
+      "src": "Assets/fotos/magma.webp",
       "alt": "Magma"
     },
     "categoryId": "makis-kureizi"
@@ -654,12 +704,13 @@
     "description": "Roll relleno de palta y crocante eby furai. Cubierto con pescado fresco y pasta dulce misokuro de la casa.",
     "badge": "🍬 Dulce",
     "price": "S/29.90",
-    "flavors": ["dulce"],
+    "flavors": [
+      "dulce"
+    ],
     "search": "miso kuro maki roll pescado pasta misokuro dulce",
     "image": {
-      "src": "Assets/carta/miso-kuro.jpg",
-      "alt": "Miso Kuro — fotografía proporcionada por Kuro",
-      "position": "50% 55%"
+      "src": "Assets/fotos/miso-kuro.webp",
+      "alt": "Miso Kuro"
     },
     "categoryId": "makis-kureizi"
   },
@@ -673,8 +724,8 @@
     "flavors": [],
     "search": "godzilla yakimeshi chickenkatsu papas fritas",
     "image": {
-      "src": "Assets/carta/godzila.png",
-      "alt": "Godzilla — fotografía proporcionada por Kuro"
+      "src": "Assets/fotos/godzilla.webp",
+      "alt": "GODZILLA"
     },
     "categoryId": "platos-individuales"
   },
@@ -703,8 +754,8 @@
     "flavors": [],
     "search": "hot miso sopa picante fideos chickenkatsu gyozas",
     "image": {
-      "src": "Assets/img/ramen.png",
-      "alt": "Hot Miso"
+      "src": "Assets/fotos/ramen.webp",
+      "alt": "HOT MISO"
     },
     "categoryId": "platos-individuales"
   },
@@ -718,8 +769,8 @@
     "flavors": [],
     "search": "alalau maki helado frito panko maracuya fudge chocolate postre",
     "image": {
-      "src": "Assets/img/alalau.jpg",
-      "alt": "Alalau Maki"
+      "src": "Assets/fotos/alalau.webp",
+      "alt": "ALALAU MAKI"
     },
     "categoryId": "postres"
   },
@@ -733,8 +784,8 @@
     "flavors": [],
     "search": "waffle nikkei helado mango chocolate matcha postre",
     "image": {
-      "src": "Assets/img/WAFFLE NIKKEI.png",
-      "alt": "Waffle Nikkei"
+      "src": "Assets/fotos/waffle-nikkei.webp",
+      "alt": "WAFFLE NIKKEI"
     },
     "categoryId": "postres"
   },
@@ -877,7 +928,7 @@
     "flavors": [],
     "search": "mojitos clásico fresa maracuya",
     "image": {
-      "src": "Assets/img/mojitos.png",
+      "src": "Assets/fotos/3x2-mojitos.webp",
       "alt": "Mojitos"
     },
     "categoryId": "bebidas",

@@ -1,5 +1,4 @@
 import KitchenPosts from '../KitchenPosts.jsx';
-import { brandAssets } from '../../data/brand.js';
 import BrandArt from '../BrandArt.jsx';
 import Icon from '../Icon.jsx';
 
@@ -7,7 +6,7 @@ const favorites = [
   {
     name: 'MAKIS CON ACTITUD',
     category: 'CLÁSICOS & KUREIZI',
-    image: 'Assets/img/cauche.png',
+    image: 'Assets/fotos/principal-clasicos.webp',
     href: 'makis-clasicos',
     label: 'Encuentra tu roll ideal',
     tag: 'EL CRUSH DE TODOS',
@@ -16,7 +15,7 @@ const favorites = [
   {
     name: 'EL PLAN COMPLETO',
     category: 'PROMOCIONES PARA TUS NAKAMAS',
-    image: 'Assets/img/tataki.png',
+    image: 'Assets/fotos/principal-promos.webp',
     href: 'combos',
     label: 'Hoy se comparte (o no)',
     tag: 'PARA EL HAMBRE REAL',
@@ -25,7 +24,7 @@ const favorites = [
   {
     name: 'CRUNCH. Y OTRA MÁS.',
     category: 'ENTRADAS QUE ENGANCHAN',
-    image: brandAssets.gyozas,
+    image: 'Assets/fotos/gyosas-fritas.webp',
     href: 'entradas',
     label: 'Empieza con unas gyozas',
     tag: 'UN BOCADO MÁS',

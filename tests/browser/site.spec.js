@@ -72,7 +72,7 @@ for (const width of [390, 720, 1440]) {
     await expect(page.getByRole('heading', { level: 1 })).toContainText('30 ROLLS.');
     await expect(page.locator('#main-header')).toBeVisible();
     await page.getByRole('button', { name: 'Siguiente promoción' }).click();
-    await expect(page.locator('.hero-photo.active')).toHaveAttribute('src', /rolls-photo/);
+    await expect(page.locator('.hero-photo.active')).toHaveAttribute('src', /after-office/);
     await expect(page.getByRole('heading', { level: 1 })).toContainText('LA LAPTOP.');
     await expect(page.locator('.hero-promo-price')).toContainText('S/35.90');
     const selectors = page.getByRole('button', { name: /^Ver promoción/ });
@@ -218,7 +218,7 @@ for (const width of [390, 1440]) {
     await trigger.click();
     const viewer = page.getByRole('dialog', { name: 'Miso Kuro', exact: true });
     await expect(viewer).toBeVisible();
-    await expect(viewer.locator('img')).toHaveAttribute('src', 'Assets/carta/miso-kuro.jpg');
+    await expect(viewer.locator('img')).toHaveAttribute('src', 'Assets/fotos/miso-kuro.webp');
     await expect(viewer.locator('img')).toHaveCSS('object-fit', 'contain');
     await page.keyboard.press('Escape');
     await expect(viewer).toBeHidden();
