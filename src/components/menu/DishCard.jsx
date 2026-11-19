@@ -51,10 +51,14 @@ export default function DishCard({ dish, hidden }) {
           <button
             className="dish-order"
             type="button"
-            onClick={() => openWhatsApp(`Hola, quisiera realizar un pedido de: ${dish.orderName}`)}
-            aria-label={`Pedir ${dish.name}`}
+            onClick={() =>
+              openWhatsApp(
+                dish.orderMessage || `Hola, quisiera realizar un pedido de: ${dish.orderName}`,
+              )
+            }
+            aria-label={`${dish.orderLabel ? 'Consultar' : 'Pedir'} ${dish.name}`}
           >
-            <span>PEDIR</span>
+            <span>{dish.orderLabel || 'PEDIR'}</span>
             <Icon name="plus" />
           </button>
         </div>

@@ -136,6 +136,38 @@
     "categoryId": "combos"
   },
   {
+    "id": "torta-de-makis",
+    "name": "Torta de makis",
+    "orderName": "Torta de makis",
+    "description": "La torta para celebrar a lo Kuro: 4 tablas de makis, 4 salsas y 5 pares de palillos. Pídela con 24 horas de anticipación.",
+    "badge": "Pedido con 24 h de anticipación",
+    "price": "S/120.00",
+    "flavors": [],
+    "search": "torta de makis cumpleaños celebracion evento tablas",
+    "image": {
+      "src": "Assets/fotos/torta-de-maki.webp",
+      "alt": "Torta de makis con cartel de feliz cumpleaños"
+    },
+    "categoryId": "eventos"
+  },
+  {
+    "id": "catering-barcos",
+    "name": "Catering con barcos de madera",
+    "orderName": "Catering con barcos de madera",
+    "orderMessage": "Hola, tengo un evento y quisiera consultar precios del alquiler de sus barcos de madera para catering.",
+    "orderLabel": "CONSULTAR",
+    "description": "¿Tienes un evento? Te alquilamos nuestros barcos de madera para tu evento. Pregunta precios en nuestro WhatsApp.",
+    "badge": null,
+    "price": "Precio por WhatsApp",
+    "flavors": [],
+    "search": "catering evento barcos de madera alquiler fiesta",
+    "image": {
+      "src": "Assets/fotos/catering.webp",
+      "alt": "Mesa de catering con barcos de madera llenos de makis Kuro"
+    },
+    "categoryId": "eventos"
+  },
+  {
     "id": "gyozas-fritas-o-al-vapor-8-unidades",
     "name": "Gyozas fritas o al vapor (8 unidades)",
     "orderName": "Gyozas fritas o al vapor (8 unidades)",
@@ -903,6 +935,22 @@
     "groupId": "1"
   },
   {
+    "id": "3x2-en-cocteles",
+    "name": "3x2 en cócteles",
+    "orderName": "3x2 en cócteles",
+    "description": "Pide 3 y paga 2. Válido solo para Mojitos o solo para Chilcanos (no se combinan entre sí). Sabores: Clásico, Fresa o Maracuyá.",
+    "badge": "3x2",
+    "price": "Desde S/36.00",
+    "flavors": [],
+    "search": "3x2 promocion cocteles mojitos chilcanos tres por dos",
+    "image": {
+      "src": "Assets/fotos/3x2-mojitos.webp",
+      "alt": "3x2 en cócteles: mojitos"
+    },
+    "categoryId": "bebidas",
+    "groupId": "2"
+  },
+  {
     "id": "chilcanos",
     "name": "Chilcanos",
     "orderName": "Chilcanos",
@@ -928,7 +976,7 @@
     "flavors": [],
     "search": "mojitos clásico fresa maracuya",
     "image": {
-      "src": "Assets/fotos/3x2-mojitos.webp",
+      "src": "Assets/img/mojitos.png",
       "alt": "Mojitos"
     },
     "categoryId": "bebidas",

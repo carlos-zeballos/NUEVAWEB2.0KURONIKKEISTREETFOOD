@@ -22,12 +22,12 @@ const favorites = [
     color: 'orange',
   },
   {
-    name: 'CRUNCH. Y OTRA MÁS.',
-    category: 'ENTRADAS QUE ENGANCHAN',
-    image: 'Assets/fotos/gyosas-fritas.webp',
-    href: 'entradas',
-    label: 'Empieza con unas gyozas',
-    tag: 'UN BOCADO MÁS',
+    name: 'TORTA DE MAKIS',
+    category: 'PARA CELEBRAR EN GRANDE · S/120',
+    image: 'Assets/fotos/torta-de-maki.webp',
+    href: 'torta-de-makis',
+    label: '4 tablas, 4 salsas y 5 pares de palillos. Pídela con 24 h de anticipación',
+    tag: 'HAPPY MAKI DAY',
     color: 'cream',
   },
 ];
@@ -53,7 +53,7 @@ export default function Favorites() {
         </div>
       </div>
       <div className="favorites-grid">
-        {favorites.map((item, index) => (
+        {favorites.map((item) => (
           <a
             href={`menu.html#${item.href}`}
             className={`favorite-card favorite-card--${item.color}`}
@@ -62,7 +62,6 @@ export default function Favorites() {
             <div className="favorite-photo">
               <img src={item.image} alt={item.label} loading="lazy" />
               <span className="card-sticker">{item.tag}</span>
-              <span className="card-index">0{index + 1}</span>
             </div>
             <div className="favorite-copy">
               <span className="eyebrow">{item.category}</span>

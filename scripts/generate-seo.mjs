@@ -19,7 +19,10 @@ const text = (value) =>
 export async function generateSeo() {
   const dishes = await read('src/data/dishes.json');
   const categories = await read('src/data/categories.json');
-  const prices = dishes.map((dish) => Number(dish.price.match(/S\/(\d+(?:\.\d+)?)/)[1]));
+  const prices = dishes
+    .map((dish) => dish.price.match(/S\/(\d+(?:\.\d+)?)/))
+    .filter(Boolean)
+    .map((match) => Number(match[1]));
   const home = await readFile(resolve(root, 'index.html'), 'utf8');
   const restaurant = JSON.parse(
     home.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1],
@@ -95,8 +98,7 @@ export async function generateSeo() {
       file: 'menu.html',
       url: `${origin}/menu.html`,
       title: 'Carta de KURO Nikkei | Makis, ramen y promociones en Arequipa',
-      description:
-        'Explora la carta de KURO: 66 opciones entre makis, entradas, ramen, promociones, postres y bebidas. Consulta precios y pide por WhatsApp en Yanahuara, Arequipa.',
+      description: `Explora la carta de KURO: ${dishes.length} opciones entre makis, entradas, ramen, promociones, tortas de makis, postres y bebidas. Consulta precios y pide por WhatsApp en Yanahuara, Arequipa.`,
       image: 'Assets/promos/30-rolls-real.jpg',
       imageAlt: 'Promoción de 30 rolls de KURO Nikkei Street Food',
       schemas: [

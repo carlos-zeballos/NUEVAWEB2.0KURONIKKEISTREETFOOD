@@ -40,19 +40,19 @@ for (const width of [390, 720, 1440]) {
     const errors = [];
     page.on('pageerror', (error) => errors.push(error.message));
     await page.goto('/menu.html');
-    await expect(page.locator('.plato-item')).toHaveCount(66);
-    await expect(page.locator('.plato-item .dish-image img')).toHaveCount(66);
+    await expect(page.locator('.plato-item')).toHaveCount(69);
+    await expect(page.locator('.plato-item .dish-image img')).toHaveCount(69);
     await page.locator('#buscar-plato').fill('california');
     await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(1);
     await expect(page.locator('#contador')).toContainText('Mostrando 1 plato');
     await page.locator('[data-sabor="dulce"]').click();
     await expect(page.locator('#sin-resultados')).toBeVisible();
     await page.getByRole('button', { name: 'Limpiar búsqueda' }).click();
-    await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(66);
+    await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(69);
     await page.getByRole('button', { name: 'Postres', exact: true }).click();
     await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(2);
     await page.getByRole('button', { name: /Toda la carta/ }).click();
-    await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(66);
+    await expect(page.locator('.plato-item:not(.oculto)')).toHaveCount(69);
     if (width < 980) {
       await page.locator('#menu-btn').click();
       await expect(page.locator('#menu-btn')).toHaveAttribute('aria-expanded', 'true');
@@ -206,7 +206,7 @@ for (const width of [390, 1440]) {
         return { width, height };
       }),
     );
-    expect(sizes).toHaveLength(66);
+    expect(sizes).toHaveLength(69);
     expect(sizes.every((size) => Math.abs(size.width / size.height - 4 / 3) < 0.02)).toBe(true);
     expect(
       Math.max(...sizes.map((size) => size.height)) - Math.min(...sizes.map((size) => size.height)),

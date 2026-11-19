@@ -69,7 +69,7 @@ export default function MenuPage() {
             Elige tu antojo y nosotros nos encargamos del resto.
           </p>
           <div className="menu-hero-note">
-            <span>66 OPCIONES PARA TU MOOD</span>
+            <span>{dishes.length} OPCIONES PARA TU MOOD</span>
             <span>HECHO AL MOMENTO ↗</span>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function MenuPage() {
             aria-pressed={categoryId === 'all'}
             onClick={() => setCategoryId('all')}
           >
-            Toda la carta <span>66</span>
+            Toda la carta <span>{dishes.length}</span>
           </button>
           {categories.map((category) => (
             <button

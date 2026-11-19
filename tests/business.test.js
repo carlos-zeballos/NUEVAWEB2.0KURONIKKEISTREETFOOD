@@ -7,9 +7,9 @@ import { whatsappUrl } from '../src/utils/whatsapp.js';
 
 const dishes = JSON.parse(readFileSync(new URL('../src/data/dishes.json', import.meta.url)));
 
-test('catalogue keeps all 66 dishes with unique ids', () => {
-  assert.equal(dishes.length, 66);
-  assert.equal(new Set(dishes.map((dish) => dish.id)).size, 66);
+test('catalogue keeps all 69 dishes with unique ids', () => {
+  assert.equal(dishes.length, 69);
+  assert.equal(new Set(dishes.map((dish) => dish.id)).size, 69);
 });
 test('search ignores accents and combines text with flavor filters', () => {
   assert.equal(
@@ -19,7 +19,7 @@ test('search ignores accents and combines text with flavor filters', () => {
   assert.equal(filterDishes(dishes, 'Acevichado', ['dulce']).length, 0);
   assert.equal(filterDishes(dishes, 'Acevichado', ['dulce', 'salado']).length, 1);
   assert.equal(filterDishes(dishes, 'no-existe-1234', []).length, 0);
-  assert.equal(filterDishes(dishes, '', []).length, 66);
+  assert.equal(filterDishes(dishes, '', []).length, 69);
 });
 test('reservations reject past dates and Wednesdays', () => {
   assert.match(dateError('2026-11-07', '2026-11-08'), /pasadas/);

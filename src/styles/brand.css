@@ -369,9 +369,9 @@ h3 {
 }
 .sun-sticker {
   position: absolute;
-  top: -22px;
-  right: -12px;
-  width: 132px;
+  top: -34px;
+  right: -22px;
+  width: 186px;
   aspect-ratio: 1;
   display: grid;
   place-items: center;
@@ -592,17 +592,6 @@ h3 {
   font-size: 9px;
   font-weight: 750;
   transform: rotate(-5deg);
-}
-.card-index {
-  position: absolute;
-  bottom: 12px;
-  right: 15px;
-  color: var(--cream);
-  font-family: var(--heading);
-  font-size: 48px;
-  font-weight: 800;
-  letter-spacing: -0.06em;
-  line-height: 1;
 }
 .favorite-copy {
   padding: 23px;
@@ -1619,8 +1608,8 @@ h3 {
     left: -30px;
   }
   .sun-sticker {
-    width: 110px;
-    right: -18px;
+    width: 158px;
+    right: -24px;
   }
   .sun-sticker > span {
     font-size: 19px;
@@ -1716,8 +1705,8 @@ h3 {
     margin-left: 3px;
   }
   .sun-sticker {
-    width: 95px;
-    top: -15px;
+    width: 132px;
+    top: -26px;
   }
   .sun-sticker > span {
     font-size: 16px;
@@ -1938,9 +1927,9 @@ h3 {
     left: -25px;
   }
   .sun-sticker {
-    width: 105px;
-    right: -10px;
-    top: -18px;
+    width: 146px;
+    right: -14px;
+    top: -28px;
   }
   .sun-sticker > span {
     font-size: 17px;

@@ -36,7 +36,7 @@ test('structured menu mirrors all current dishes without invented fixed starting
     const item = items.find((entry) => entry.url.endsWith(`#${dish.id}`));
     assert.equal(item.name, dish.name);
     assert.equal(decodeURI(new URL(item.image).pathname), `/${dish.image.src}`);
-    if (dish.price.startsWith('Desde')) assert.equal(item.offers, undefined);
+    if (!dish.price.startsWith('S/')) assert.equal(item.offers, undefined);
     else {
       assert.equal(item.offers.price, dish.price.slice(2));
       assert.equal(item.offers.priceCurrency, 'PEN');
