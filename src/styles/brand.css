@@ -748,9 +748,18 @@ h3 {
   max-width: 330px;
   margin-top: 23px;
 }
-.membership .btn {
+.membership-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
   margin-top: 28px;
+}
+.membership .btn {
   border-color: var(--yellow);
+}
+.btn-outline-yellow {
+  background: transparent;
+  color: var(--yellow);
 }
 .membership .btn:hover {
   box-shadow: 4px 4px 0 var(--orange);

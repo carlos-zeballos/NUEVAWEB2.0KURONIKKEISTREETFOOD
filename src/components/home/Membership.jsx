@@ -19,15 +19,25 @@ export default function Membership() {
             Si Kuro ya es tu lugar, esto es para ti. Hazte Socio Kuro y convierte tus antojos en
             recompensas.
           </p>
-          <a
-            href="https://kuronakama.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-yellow"
-          >
-            QUIERO SER SOCIO KURO <Icon name="arrow" />
-          </a>
-          <small>Tu próxima buena decisión empieza con un maki.</small>
+          <div className="membership-actions">
+            <a
+              href="https://kuronakama.com/register"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-yellow"
+            >
+              QUIERO SER SOCIO KURO <Icon name="arrow" />
+            </a>
+            <a
+              href="https://kuronakama.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline-yellow"
+            >
+              YA SOY SOCIO · INGRESAR <Icon name="arrow" />
+            </a>
+          </div>
+          <small>¿Ya eres socio? Revisa tus puntos y tu QR.</small>
         </div>
         <div className="membership-art">
           <span className="membership-ring" />
